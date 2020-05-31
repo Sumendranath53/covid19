@@ -1,3 +1,4 @@
+
 function india(data)
 {
     const totalCases = data.countryitems[0][72].total_cases;
@@ -33,5 +34,4 @@ const fetchedData = fetch('https://api.thevirustracker.com/free-api?countryTotal
 .then((data) =>
     {
        india(data);
-       console.log(data);
     });

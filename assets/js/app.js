@@ -4,7 +4,7 @@ function makeNewOptionBox(data)
     const title = data.title;
     if(typeof title != "undefined")
     {
-        const optionBox =  document.createElement("-option");
+        const optionBox =  document.createElement("option");
         optionBox.innerHTML = title;
         selectElem.appendChild(optionBox);
     }
